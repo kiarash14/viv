@@ -5,8 +5,8 @@ URL = require('socket.url')
 JSON = require('dkjson')
 HTTPS = require('ssl.https')
 ----config----
-local bot_api_key = " "--توکن بوت را درون " قرار دهید --
-local BASE_URL = "https://api.telegram.org/bot"..bot_api_key
+local bot_api_key = " 208668705:AAH0ar8YPXZu9JPODZvPU9IKsqax2VEDNfs"توکن بوت را درون " --
+local BASE_URL = "https://api.telegram.org/sceneboldbot"..bot_api_key
 local BASE_FOLDER = ""
 local start = [[
 hi :)
@@ -57,7 +57,7 @@ _TNX TO USE ME :)_
 
 function is_admin(msg)-- Check if user is admin or not
   local var = false
-  local admins = {94746365}-- put your id here
+  local admins = {100096055}-- put your id here
   for k,v in pairs(admins) do
     if msg.from.id == v then
       var = true
